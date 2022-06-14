@@ -1,0 +1,12 @@
+extends layout.pug
+
+block content 
+
+  h1  #{err.message} Error code: #{err.status}
+  p= err.stack
+
+
+  button.homebtn
+    a.homeText(href='/')
+      span &larr;
+         |  Home page

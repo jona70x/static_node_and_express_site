@@ -1,0 +1,117 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "Forkify",
+      "description": "Food recipe app that allows you to search your favorite recipes, and save them for your convinience",
+      "technologies": ["HTML", "Sass CSS", "JavaScript", "MVC Architecture"],
+      "live_link": "https://forkify-jonathancarpio.netlify.app/",
+      "github_link": "https://github.com/jona70x/forkify-course-app",
+      "image_urls": [
+        "/static/images/project_images/forkify_main.png",
+        "/static/images/project_images/forkify_0.png",
+        "/static/images/project_images/forkify_1.png",
+        "/static/images/project_images/forkify_2.png",
+        "/static/images/project_images/forkify_3.png"
+      ]
+    },
+    {
+      "id": 1,
+      "project_name": "Alphabet with sounds",
+      "description": "App to listen to the pronunciation of the English alphabet.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://englishalphabet.netlify.app/",
+      "github_link": "https://github.com/jona70x/Alphabet-with-sounds",
+      "image_urls": [
+        "/static/images/project_images/alphabet_main.png",
+        "/static/images/project_images/alphabet_0.png"
+      ]
+    },
+    {
+      "id": 2,
+      "project_name": "Trully skincare ecommerce website",
+      "description": "E-commerce website template for a skin care business.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://trully-skincare.netlify.app/index.html",
+      "github_link": "https://github.com/jona70x/Ecommerce-website",
+      "image_urls": [
+        "/static/images/project_images/trully_main.png",
+        "/static/images/project_images/trully_0.png",
+        "/static/images/project_images/trully_1.png",
+        "/static/images/project_images/trully_2.png"
+      ]
+    },
+    {
+      "id": 3,
+      "project_name": "Random quote generator",
+      "description": "Genrates random quotes to cheer up yout day. It automatically refreshes the quotes every 10 seconds.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://randomquote-generator1.netlify.app/",
+      "github_link": "https://github.com/jona70x/random_quote_generator",
+      "image_urls": [
+        "/static/images/project_images/random_main.png",
+        "/static/images/project_images/random_0.png",
+        "/static/images/project_images/random_1.png"
+      ]
+    },
+    {
+      "id": 4,
+      "project_name": "Data pagination and filtering",
+      "description": "List paginator and a search bar. It displays data in multiple pages and adds buttons to access them. Search bar filters results and display with buttons.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://listing-and-pagination.netlify.app/",
+      "github_link": "https://github.com/jona70x/data-pagination-and-filtering",
+      "image_urls": [
+        "/static/images/project_images/listing_main.png",
+        "/static/images/project_images/listing_0.png",
+        "/static/images/project_images/listing_1.png",
+        "/static/images/project_images/listing_2.png"
+      ]
+    },
+    {
+      "id": 5,
+      "project_name": "Interactive form",
+      "description": "This project includes validation for name, email, and credit card fields. The validation dynamically produces errors and success feedback with visual aids, so users can correct the information provided while typing. Form displays color shirts depending on the model selected, and payment type is also dynamically displayed.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://interactive-and-validateform.netlify.app/",
+      "github_link": "https://github.com/jona70x/interactive-form",
+      "image_urls": [
+        "/static/images/project_images/form_main.png",
+        "/static/images/project_images/form_0.png",
+        "/static/images/project_images/form_1.png",
+        "/static/images/project_images/form_2.png",
+        "/static/images/project_images/form_3.png"
+      ]
+    },
+    {
+      "id": 6,
+      "project_name": "Phrase Hunter",
+      "description": "This project mimics the popular game 'Phrase Hunter' where users have to guess the hidden phrase without losing all five lives.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://phrasehunter-project.netlify.app/",
+      "github_link": "https://github.com/jona70x/phrase_hunter",
+      "image_urls": [
+        "/static/images/project_images/phrase_main.png",
+        "/static/images/project_images/phrase_0.png",
+        "/static/images/project_images/phrase_1.png",
+        "/static/images/project_images/phrase_2.png",
+        "/static/images/project_images/phrase_3.png"
+      ]
+    },
+    {
+      "id": 7,
+      "project_name": "Random user generator",
+      "description": "This app uses the Random User Generator API (https://randomuser.me/) to grab information for 12 random “employees”, and display them to the directory. When a card is clicked, it generates a modal window with the employee data.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "live_link": "https://random-user-generator1.netlify.app/",
+      "github_link": "https://github.com/jona70x/random_user_generator",
+      "image_urls": [
+        "/static/images/project_images/users_main.png",
+        "/static/images/project_images/users_0.png",
+        "/static/images/project_images/users_1.png",
+        "/static/images/project_images/users_2.png",
+        "/static/images/project_images/users_3.png"
+      ]
+    }
+  ]
+}

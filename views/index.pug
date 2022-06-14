@@ -1,0 +1,18 @@
+extends layout.pug
+
+block content
+
+  article.portfolio-intro
+    h1 Jonathan's Carpio Portfolio
+    p Welcome to my portfolio. Here you can find a variety of projects I have been able to accomplish. I have used Express, Node.js and Pug in this project. Feel free to reach me if you have any questions.
+
+
+  article.portfolio-project-thumbs
+    .projects-box.box.grid
+      each project of projects
+        .cell
+            a(href=`/projects/${project.id}`)
+              img.thumbnail(src=`${project.image_urls[0]}` alt=`Thumbnail ${project.project_name}` height='550px' )
+              h5= project.project_name
+
+

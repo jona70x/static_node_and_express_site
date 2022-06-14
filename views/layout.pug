@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+html(lang="en" dir="ltr")
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='x-ua-compatible', content='ie=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Jonathan Carpio's Portfolio
+    link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
+    link(rel="preconnect" href="https://fonts.googleapis.com")
+    link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+    link(href="https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:wght@300&display=swap" rel="stylesheet")
+    link(rel='stylesheet', href='/static/css/normalize.css')
+    link(rel='stylesheet', href='/static/css/styles.css')
+
+  body
+    #my-info.sidebar
+      .sidebar-info-box
+        br
+        .thumbnail-box
+          img.thumbnail(src='/static/images/profile.jpeg', alt='')
+        .dev-intro-box
+
+          h5 Jonathan Carpio
+
+          p I am a Full Stack JavaScript student working to become a better developer and showcase my abilities in a first job opportunity.
+
+          a(href='/about') Learn More &rarr;
+
+    .wrapper
+      .header
+        .header-info-box
+          button#menu-icon.menu-icon(type='button' data-toggle='my-info')
+
+
+          span Jonathan Carpio
+
+      block content
+
+  script(src='/static/js/script.js')
